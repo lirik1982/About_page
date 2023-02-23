@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA - Кирилл</title>
+
+  <link rel="icon" type="image/png" href="/img/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <script src="src/jquery-3.6.0.js"></script>
+  <script src="src/jquery-ui.js"></script>
+
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="max-container p-blue">
+      <div class="header-container">
+        <span class="header-logo">
+          Кирилл Дегтярев
+        </span>
+
+        <span class="header-logo-mobile is-active">
+          КД
+        </span>
+
+
+        <button class="header-burger is-active" id="header-burger" type="button" data-toggle="collapse"
+          data-target="#burgerResponsive" aria-label="Бургер">
+          <span class="header-burger-icon"></span>
+        </button>
+
+        <nav class="header-nav active">
+          <ul class="header-nav__list ">
+            <li class="header-nav__list-item">
+              <a class="header-nav__list-link" href="#footer">Статус:
+                <span class=" blink_me"> в поиске работы</span></a>
+            </li>
+          </ul>
+        </nav>
+
+
+
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <section class="element" id="element">
+      <div class=" container element-container">
+        <h1 class="element__header">QA-инженер</h1>
+        <div class="element__topline-1">Навыки, которые я могу предложить:</div>
+
+        <div class="element-bot">
+          <div class="element-bot-left">
+            <ul class="element-list" id="accordion">
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Тестирование на всем жизненном цикле разработки</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+                  <button class="element-listitem-content__link" data-path="element-t-1">Тестирование
+                    спецификации/требований</button>
+                  <button class="element-listitem-content__link" data-path="element-t-2">Схема состояний
+                    и переходов</button>
+                  <button class="element-listitem-content__link" data-path="element-t-3">Тестирование API</button>
+                  <button class="element-listitem-content__link" data-path="element-t-4">Тестирование UI/UX</button>
+                  <button class="element-listitem-content__link" data-path="element-t-5">Тестирование
+                    безопасности</button>
+                  <button class="element-listitem-content__link" data-path="element-t-6">Регрессионное
+                    тестирование</button>
+                  <button class="element-listitem-content__link" data-path="element-t-7">Приемочное
+                    тестирование</button>
+                </div>
+              </li>
+
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Мои Web-наработки</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+                  <button class="element-listitem-content__link" data-path="element-p-4">Радиостудия</button>
+                  <button class="element-listitem-content__link" data-path="element-p-1">Lagoona</button>
+                  <button class="element-listitem-content__link" data-path="element-p-2">Евклид</button>
+                  <button class="element-listitem-content__link" data-path="element-p-3">Онлайн-школа</button>
+                </div>
+              </li>
+
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Баг-репорты</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+                  <button class="element-listitem-content__link" data-path="element-b-1">Баг-трекер Jira</button>
+                  <button class="element-listitem-content__link" data-path="element-b-2">Табличный вид</button>
+                </div>
+              </li>
+
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Автоматизация</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+                  <button class="element-listitem-content__link" data-path="element-a-1">Тест фронта с Selenium и
+                    pytest</button>
+                  <button class="element-listitem-content__link" data-path="element-a-2">Тест Api c pytest</button>
+                  <button class="element-listitem-content__link" data-path="element-a-3">Генерация отчетов с
+                    Allure</button>
+                </div>
+              </li>
+
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Обо мне</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+                  <button class="element-listitem-content__link" data-path="element-ab-1">Профессиональные
+                    навыки</button>
+                  <button class="element-listitem-content__link" data-path="element-ab-2">Личностные качества</button>
+                  <button class="element-listitem-content__link" data-path="element-ab-3">Хобби и увлечения</button>
+                </div>
+              </li>
+
+              <li class="element-listitem">
+                <div class="element-listitem-header">
+                  <h3 class="element-listitem-header__name">Контакты</h3>
+                  <svg class="element-listitem-header__ico" width="48" height="48" viewbox="0 0 48 48" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="24" cy="24" r="20" stroke-width="2" />
+                    <path d="M16 22L24 30L32 22" stroke-width="2" stroke-linecap="square" />
+                  </svg>
+                </div>
+                <div class="element-listitem-content">
+
+                  <ul class="element-social">
+                    <li class="element-social__listitem scale_small">
+                      <a href="https://vk.com/kirill.degtyarev" target="_blank">
+                        <svg width="24px" height="24px" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg"
+                          xml:space="preserve">
+                          <path fill="#ffffff"
+                            d="M4.818 6.757C2.382 6.757.992 5.063.934 2.243h1.22c.04 2.07.94 2.946 1.653 3.127V2.243h1.15v1.785c.703-.077 1.443-.89 1.692-1.785H7.8c-.192 1.102-.994 1.916-1.564 2.25.57.271 1.483.98 1.83 2.264H6.802c-.272-.858-.95-1.523-1.844-1.613v1.613z"
+                            style="fill:none;stroke:#121723;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="element-social__listitem scale_small">
+                      <a href="https://github.com/lirik1982" target="_blank">
+                        <svg width="24px" height="24px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg"
+                          fill="none">
+                          <path stroke="#121723" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"
+                            d="M120.755 170c.03-4.669.059-20.874.059-27.29 0-9.272-3.167-15.339-6.719-18.41 22.051-2.464 45.201-10.863 45.201-49.067 0-10.855-3.824-19.735-10.175-26.683 1.017-2.516 4.413-12.63-.987-26.32 0 0-8.296-2.672-27.202 10.204-7.912-2.213-16.371-3.308-24.784-3.352-8.414.044-16.872 1.14-24.785 3.352C52.457 19.558 44.162 22.23 44.162 22.23c-5.4 13.69-2.004 23.804-.987 26.32C36.824 55.498 33 64.378 33 75.233c0 38.204 23.149 46.603 45.2 49.067-3.551 3.071-6.719 9.138-6.719 18.41 0 6.416.03 22.621.059 27.29M27 130c9.939.703 15.67 9.735 15.67 9.735 8.834 15.199 23.178 10.803 28.815 8.265" />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="element-social__listitem scale_small">
+                      <a href="https://hh.ru/resume/6cf6d99dff0b91e5120039ed1f664671517968" target="_blank">
+                        <svg width="24px" height="24px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                          <path d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24"
+                            fill="#121723" />
+                          <path
+                            d="M13.65 13.169v8.164c1.243-1.482 2.733-2.228 4.461-2.228.89 0 1.687.17 2.402.507.717.335 1.253.765 1.615 1.287.364.527.61 1.104.743 1.74.132.633.198 1.618.198 2.954v8.729h-3.862V26.46c0-1.56-.07-2.548-.217-2.968a1.917 1.917 0 0 0-.775-1c-.372-.251-.835-.375-1.394-.375-.64 0-1.214.16-1.713.478-.51.32-.876.798-1.108 1.437-.236.64-.354 1.585-.35 2.836l-.004 7.454H9.789V13.169h3.862m15.206 0v8.164c1.244-1.482 2.733-2.228 4.46-2.228.887 0 1.69.17 2.406.507.714.335 1.25.765 1.61 1.287a4.69 4.69 0 0 1 .743 1.74c.133.633.199 1.618.199 2.954v8.729h-3.858V26.46c0-1.56-.073-2.548-.22-2.968a1.91 1.91 0 0 0-.777-1c-.368-.251-.835-.375-1.394-.375-.639 0-1.213.16-1.713.478-.503.32-.871.798-1.106 1.437-.232.64-.35 1.585-.35 2.836v7.454H25V13.169h3.857"
+                            fill='#A1A6B4' />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="element-social__listitem scale_small">
+                      <a href="https://career.habr.com/lirik19" target="_blank">
+                        <svg width="24px" height="24px" role="img" xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24">
+                          <path fill="#121723"
+                            d="M0 0v24h24V0zm7.025 4h1.633c1.219 0 1.64.029 1.668.113.019.066.028 1.369.028 2.897l-.008 2.783.476-.422c.657-.581 1.212-.787 2.262-.824.694-.019.973.009 1.46.178 1.06.356 1.81 1.087 2.204 2.166.15.421.17.863.197 4.285l.03 3.824h-3.338v-3.121c0-3.075-.01-3.113-.217-3.488-.29-.497-.609-.722-1.106-.778-.853-.093-1.443.197-1.78.89-.16.32-.179.656-.188 3.356-.01 1.65-.03 3.03-.03 3.067-.008.047-.75.074-1.65.074h-1.64v-7.5z" />
+
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="element-social__listitem scale_small">
+                      <a href="https://t.me/KirillDegtyarev" target="_blank">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M21.997 12C21.997 17.5228 17.5198 22 11.997 22C6.47415 22 1.99699 17.5228 1.99699 12C1.99699 6.47715 6.47415 2 11.997 2C17.5198 2 21.997 6.47715 21.997 12ZM12.3553 9.38244C11.3827 9.787 9.43876 10.6243 6.52356 11.8944C6.05018 12.0827 5.8022 12.2669 5.77962 12.4469C5.74147 12.7513 6.12258 12.8711 6.64155 13.0343C6.71214 13.0565 6.78528 13.0795 6.86026 13.1038C7.37085 13.2698 8.05767 13.464 8.41472 13.4717C8.7386 13.4787 9.10009 13.3452 9.49918 13.0711C12.2229 11.2325 13.629 10.3032 13.7172 10.2831C13.7795 10.269 13.8658 10.2512 13.9243 10.3032C13.9828 10.3552 13.977 10.4536 13.9708 10.48C13.9331 10.641 12.4371 12.0318 11.6629 12.7515C11.4216 12.9759 11.2504 13.135 11.2154 13.1714C11.137 13.2528 11.0571 13.3298 10.9803 13.4038C10.506 13.8611 10.1502 14.204 11 14.764C11.4083 15.0331 11.7351 15.2556 12.0611 15.4776C12.4171 15.7201 12.7722 15.9619 13.2317 16.2631C13.3487 16.3398 13.4605 16.4195 13.5694 16.4971C13.9837 16.7925 14.3559 17.0579 14.8158 17.0155C15.083 16.991 15.359 16.7397 15.4992 15.9903C15.8305 14.2193 16.4817 10.382 16.6322 8.80081C16.6454 8.66228 16.6288 8.48498 16.6154 8.40715C16.6021 8.32932 16.5743 8.21842 16.4731 8.13633C16.3533 8.03911 16.1683 8.01861 16.0856 8.02C15.7095 8.0267 15.1324 8.22735 12.3553 9.38244Z"
+                            stroke="#121723" stroke-linejoin="round" />
+                        </svg>
+                      </a>
+                    </li>
+                    <li class="element-social__listitem scale_small">
+                      <a href="mailto:lirik19@yandex.ru" target="_blank">
+                        <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                          xmlns="http://www.w3.org/2000/svg">
+                          <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#121723"
+                            stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                          <rect x="3" y="5" width="18" height="14" rx="2" stroke="#121723" stroke-width="1"
+                            stroke-linecap="round" />
+                        </svg>
+                      </a>
+                    </li>
+
+                  </ul>
+                  <div class="element-logo scale_small">
+                    <a href="tel:+79138302340">
+                      <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M8.20049 15.799C1.3025 8.90022 2.28338 5.74115 3.01055 4.72316C3.10396 4.55862 5.40647 1.11188 7.87459 3.13407C14.0008 8.17945 6.5 8 11.3894 12.6113C16.2788 17.2226 15.8214 9.99995 20.8659 16.1249C22.8882 18.594 19.4413 20.8964 19.2778 20.9888C18.2598 21.717 15.0995 22.6978 8.20049 15.799Z"
+                          stroke="#121723" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </a>
+                    +79138302340
+                  </div>
+                </div>
+
+
+            </ul>
+
+          </div>
+
+
+
+
+
+          <div class="element-bot-right" id="element-info">
+            <div class="element-item is-on" data-target="element-0">
+              <div class="element-content">
+              </div>
+            </div>
+            <div>
+              <div class="element-item" data-target="element-t-1">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/2023-02-17_23-21-47.png" alt="">
+                  </picture>
+                  <h4 class="element__name">Тестирование спецификации/требований</h4>
+                  <div class="element__about">
+                    Требования - основа проекта, фундамент для проектирования и разработки.
+                    Допущенная в документации ошибка или неточность может проявиться в самый неподходящий момент.
+                    Очевидно, что гораздо проще устранить дефект в паре строк требований, чем позже «перелопачивать»
+                    несколько сотен (или даже тысяч) строк кода.
+                    Тестирование требований направлено на то, чтобы уже на начальных этапах проектирования системы
+                    устранить максимально возможное количество ошибок. В перспективе, это позволяет:
+                    значительно снизить итоговую стоимость проекта, улучшить качество продукта, сохранить нервы всей
+                    команде.
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-2">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/2023-02-17_23-23-22.png" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Схема состояний и переходов</h4>
+                  <div class="element__about">
+                    Такая схема позволяет нам сразу визуально оценить, какие переходы вообще возможны и что надо
+                    протестировать. Ведь нам надо протестировать и эту стрелку, и эту... Так что стрелочки — это наши
+                    готовые тест-кейсы!
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-3">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/postman.png" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Тестирование API</h4>
+                  <div class="element__about">
+                    Тестирование API - огромная область тестирования, в которой исследуется взаимодействие модулей
+                    продукта (например, связь фронта с бэком), с помощью различных инструментов.
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-4">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/pixelperfect.jpg" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Тестирование UI/UX</h4>
+                  <div class="element__about">
+                    Тестирование - неотъемлемая часть разработки любых программных продуктов. А UI тестирование, или
+                    тестирование пользовательского интерфейса - важная и весомая часть тестирования в целом. Как
+                    говорится, встречают по одежке, и интерфейс - это как раз таки та “одежка” вашего сайта или
+                    приложения, которая должна произвести первое впечатление на ваших пользователей. Поэтому очень важно
+                    проверить все критерии и убедиться в высоком качестве интерфейса, чтобы не терять пользователей, а
+                    только расширять аудиторию.
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-5">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/SQL.png" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Тестирование безопасности</h4>
+                  <div class="element__about">
+                    Тест безопасности - это огромнный раздел тестирования, но если всё сделать правильно, то продукту не
+                    будут
+                    страшны ни брутфорсы, ни сниферы, ни SQL-инъекции, ни XSS-атаки...
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-6">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/regression-testing.jpg" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Регрессионное тестирование</h4>
+                  <div class="element__about">
+                    Регрессионное тестирование — это тип тестирования, проводимого для того, чтобы убедиться, что
+                    изменения, внесенные в исправления или любые улучшения, не влияют на ранее работавшую
+                    функциональность. Выполняется после улучшения или исправления дефектов в программном обеспечении или
+                    его среде. Может быть трудно определить, сколько повторного тестирования необходимо, особенно ближе
+                    к
+                    концу цикла разработки .
+                  </div>
+                </div>
+              </div>
+
+              <div class="element-item" data-target="element-t-7">
+                <div class="element-content">
+                  <picture>
+                    <img class="element__photo scale" src="img/test_theory/levels-of-testing.png" alt="">
+                  </picture>
+
+                  <h4 class="element__name">Приемочное тестирование</h4>
+                  <div class="element__about">
+                    Этот уровень тестирования используется для подтверждения готовности продукта и проводится
+                    преимущественно в самом конце цикла разработки программы.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-p-1">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Pages/Lagoona/chrome-capture-2023-1-15.gif" alt="">
+                </picture>
+
+                <h4 class="element__name">Lagoona</h4>
+                <div class="element__about">
+                  Страница для туристического агенства
+                </div>
+              </div>
+            </div>
+
+
+            <div class="element-item" data-target="element-p-2">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Pages/Evklid/chrome-capture-2023-1-20.gif" alt="">
+                </picture>
+
+                <h4 class="element__name">Евклид</h4>
+                <div class="element__about">
+                  Сайт для проектного бюро с свайпером, аккордеоном а адаптивной версткой
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-p-3">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Pages/Grid/chrome-capture-2023-1-20.gif" alt="">
+                </picture>
+
+                <h4 class="element__name">Онлайн школа</h4>
+                <div class="element__about">
+                  Простая страница на bootstrap для онлайн школы
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-p-4">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Pages/Radio/chrome-capture-2023-1-20.gif" alt="">
+                </picture>
+
+                <h4 class="element__name">Радиостудия</h4>
+                <div class="element__about">
+                  Сайт для радиостудии с фоновым проигрывателем и набором интерактивов, всегда доступен по ссылке:
+                  <a href="https://lirik1982.github.io/RadioStation/"
+                    target="_blank">lirik1982.github.io/RadioStation/</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-b-1">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Jira/2023-02-15_22-29-12.png" alt="">
+                </picture>
+
+                <h4 class="element__name">Баг-трекер Jira</h4>
+                <div class="element__about">
+                  Самый популярный баг-трекер в мире
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-b-2">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Jira/chrome-capture-2023-1-20.gif" alt="">
+                </picture>
+
+                <h4 class="element__name">Табличный вид</h4>
+                <div class="element__about">
+                  Таблицы от google или Microsoft, могут быть вполне удобными для формирования баг-репортов
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-a-1">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Auto/pytest_selenium.png" alt="">
+                </picture>
+
+                <h4 class="element__name">Тест фронта с Selenium и pytest</h4>
+                <div class="element__about">
+                  Одна из самых распространенных связок Selenium + pytest позволяет настроить автоматизацию тестирования
+                  Вашего сайта.
+                  <div class="">Пример реализации есть в моем гитхабе</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-a-2">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Auto/pytest_api_json.png" alt="">
+                </picture>
+
+                <h4 class="element__name">Тест Api c pytest</h4>
+                <div class="element__about">
+                  С модулями pytest и requests в Python удобно реализуется тестирование backend-а.
+                  <div class="">Пример реализации есть в моем гитхабе</div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-a-3">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/Auto/allure.png" alt="">
+                </picture>
+
+                <h4 class="element__name">Генерация отчетов с
+                  Allure</h4>
+                <div class="element__about">
+                  Графики и циферки, - это так прикольно! A с модулем Allure, даже сообщения о критических ошибках
+                  читаются с улыбкой)
+                  <div class="">Пример реализации есть в моем гитхабе</div>
+
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-ab-1">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/About/pizap.com14335352302141.jpg" alt="">
+                </picture>
+
+                <h4 class="element__name">Профессиональные навыки</h4>
+                <div class="element__about">
+                  Программирую с детства.
+                  Имею 10-летний опыт работы в компьютерной экспертизе МВД, - через мои руки прошли сотни устройств со
+                  всевозможной хард и софт начинкой.
+                  Я знаю как найти артефакт в большом объёме данных, локализовать и описать его простым общепонятным
+                  языком!
+                  Последний год, изучаю актуальные в коммерческом программировании средства разработки.
+                </div>
+              </div>
+            </div>
+
+
+            <div class="element-item" data-target="element-ab-2">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/About/IMG_20230104_122308.jpg" alt="">
+                </picture>
+
+                <h4 class="element__name">Личностные качества</h4>
+                <div class="element__about">
+                  Легко найду общий язык с коллегами, потушу конфликтные ситуации, или поддержу горячую дискуссию.
+                  Я прошел службу в МВД, дважды ипотеку и кучку детей, так что - максимальная стрессоустойчивость!
+                  Допускаю работу во внеурочное время, потому как иногда есть слово - надо.
+                </div>
+              </div>
+            </div>
+
+            <div class="element-item" data-target="element-ab-3">
+              <div class="element-content">
+                <picture>
+                  <img class="element__photo scale" src="img/About/20151115_174325.jpg" alt="">
+                </picture>
+
+                <h4 class="element__name">Хобби и увлечения</h4>
+                <div class="element__about">
+                  В посление годы читаю книги по фильму непосредственно перед просмотром: 5 волна, марсианин, игра
+                  престолов, первому игроку приготовиться и пр.
+                  Стараюсь регулярно заниматься в тренажерке, так как в здоровом теле - здоровый дух)
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+      </div>
+      </div>
+    </section>
+
+
+  </main>
+  <footer id="footer">
+    <div class=" max-container p-blue">
+      <div class="footer-container" id="footer-container">
+        <ul class="footer-social">
+          <li class="footer-social__listitem scale_small">
+            <a href="https://vk.com/kirill.degtyarev" target="_blank">
+              <svg width="24px" height="24px" viewBox="0 0 9 9" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
+                <path fill="#ffffff"
+                  d="M4.818 6.757C2.382 6.757.992 5.063.934 2.243h1.22c.04 2.07.94 2.946 1.653 3.127V2.243h1.15v1.785c.703-.077 1.443-.89 1.692-1.785H7.8c-.192 1.102-.994 1.916-1.564 2.25.57.271 1.483.98 1.83 2.264H6.802c-.272-.858-.95-1.523-1.844-1.613v1.613z"
+                  style="fill:none;stroke:#fff;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__listitem scale_small">
+            <a href="https://github.com/lirik1982" target="_blank">
+              <svg width="24px" height="24px" viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="8"
+                  d="M120.755 170c.03-4.669.059-20.874.059-27.29 0-9.272-3.167-15.339-6.719-18.41 22.051-2.464 45.201-10.863 45.201-49.067 0-10.855-3.824-19.735-10.175-26.683 1.017-2.516 4.413-12.63-.987-26.32 0 0-8.296-2.672-27.202 10.204-7.912-2.213-16.371-3.308-24.784-3.352-8.414.044-16.872 1.14-24.785 3.352C52.457 19.558 44.162 22.23 44.162 22.23c-5.4 13.69-2.004 23.804-.987 26.32C36.824 55.498 33 64.378 33 75.233c0 38.204 23.149 46.603 45.2 49.067-3.551 3.071-6.719 9.138-6.719 18.41 0 6.416.03 22.621.059 27.29M27 130c9.939.703 15.67 9.735 15.67 9.735 8.834 15.199 23.178 10.803 28.815 8.265" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__listitem scale_small">
+            <a href="https://hh.ru/resume/6cf6d99dff0b91e5120039ed1f664671517968" target="_blank">
+              <svg width="24px" height="24px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 48c13.255 0 24-10.745 24-24S37.255 0 24 0 0 10.745 0 24s10.745 24 24 24" fill="#fff" />
+                <path
+                  d="M13.65 13.169v8.164c1.243-1.482 2.733-2.228 4.461-2.228.89 0 1.687.17 2.402.507.717.335 1.253.765 1.615 1.287.364.527.61 1.104.743 1.74.132.633.198 1.618.198 2.954v8.729h-3.862V26.46c0-1.56-.07-2.548-.217-2.968a1.917 1.917 0 0 0-.775-1c-.372-.251-.835-.375-1.394-.375-.64 0-1.214.16-1.713.478-.51.32-.876.798-1.108 1.437-.236.64-.354 1.585-.35 2.836l-.004 7.454H9.789V13.169h3.862m15.206 0v8.164c1.244-1.482 2.733-2.228 4.46-2.228.887 0 1.69.17 2.406.507.714.335 1.25.765 1.61 1.287a4.69 4.69 0 0 1 .743 1.74c.133.633.199 1.618.199 2.954v8.729h-3.858V26.46c0-1.56-.073-2.548-.22-2.968a1.91 1.91 0 0 0-.777-1c-.368-.251-.835-.375-1.394-.375-.639 0-1.213.16-1.713.478-.503.32-.871.798-1.106 1.437-.232.64-.35 1.585-.35 2.836v7.454H25V13.169h3.857"
+                  fill='#A1A6B4' />
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__listitem scale_small">
+            <a href="https://career.habr.com/lirik19" target="_blank">
+              <svg width="24px" height="24px" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path fill="#fff"
+                  d="M0 0v24h24V0zm7.025 4h1.633c1.219 0 1.64.029 1.668.113.019.066.028 1.369.028 2.897l-.008 2.783.476-.422c.657-.581 1.212-.787 2.262-.824.694-.019.973.009 1.46.178 1.06.356 1.81 1.087 2.204 2.166.15.421.17.863.197 4.285l.03 3.824h-3.338v-3.121c0-3.075-.01-3.113-.217-3.488-.29-.497-.609-.722-1.106-.778-.853-.093-1.443.197-1.78.89-.16.32-.179.656-.188 3.356-.01 1.65-.03 3.03-.03 3.067-.008.047-.75.074-1.65.074h-1.64v-7.5z" />
+
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__listitem scale_small">
+            <a href="https://t.me/KirillDegtyarev" target="_blank">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M21.997 12C21.997 17.5228 17.5198 22 11.997 22C6.47415 22 1.99699 17.5228 1.99699 12C1.99699 6.47715 6.47415 2 11.997 2C17.5198 2 21.997 6.47715 21.997 12ZM12.3553 9.38244C11.3827 9.787 9.43876 10.6243 6.52356 11.8944C6.05018 12.0827 5.8022 12.2669 5.77962 12.4469C5.74147 12.7513 6.12258 12.8711 6.64155 13.0343C6.71214 13.0565 6.78528 13.0795 6.86026 13.1038C7.37085 13.2698 8.05767 13.464 8.41472 13.4717C8.7386 13.4787 9.10009 13.3452 9.49918 13.0711C12.2229 11.2325 13.629 10.3032 13.7172 10.2831C13.7795 10.269 13.8658 10.2512 13.9243 10.3032C13.9828 10.3552 13.977 10.4536 13.9708 10.48C13.9331 10.641 12.4371 12.0318 11.6629 12.7515C11.4216 12.9759 11.2504 13.135 11.2154 13.1714C11.137 13.2528 11.0571 13.3298 10.9803 13.4038C10.506 13.8611 10.1502 14.204 11 14.764C11.4083 15.0331 11.7351 15.2556 12.0611 15.4776C12.4171 15.7201 12.7722 15.9619 13.2317 16.2631C13.3487 16.3398 13.4605 16.4195 13.5694 16.4971C13.9837 16.7925 14.3559 17.0579 14.8158 17.0155C15.083 16.991 15.359 16.7397 15.4992 15.9903C15.8305 14.2193 16.4817 10.382 16.6322 8.80081C16.6454 8.66228 16.6288 8.48498 16.6154 8.40715C16.6021 8.32932 16.5743 8.21842 16.4731 8.13633C16.3533 8.03911 16.1683 8.01861 16.0856 8.02C15.7095 8.0267 15.1324 8.22735 12.3553 9.38244Z"
+                  stroke="#fff" stroke-linejoin="round" />
+              </svg>
+            </a>
+          </li>
+          <li class="footer-social__listitem scale_small">
+            <a href="mailto:lirik19@yandex.ru" target="_blank">
+              <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7" stroke="#fff"
+                  stroke-width="1" stroke-linecap="round" stroke-linejoin="round" />
+                <rect x="3" y="5" width="18" height="14" rx="2" stroke="#fff" stroke-width="1" stroke-linecap="round" />
+              </svg>
+            </a>
+          </li>
+
+        </ul>
+        <div class="footer-logo scale_small">
+          <a href="tel:+79138302340">
+            <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M15 3C16.5315 3.17014 17.9097 3.91107 19 5C20.0903 6.08893 20.8279 7.46869 21 9M14.5 6.5C15.2372 6.64382 15.9689 6.96892 16.5 7.5C17.0311 8.03108 17.3562 8.76284 17.5 9.5M8.20049 15.799C1.3025 8.90022 2.28338 5.74115 3.01055 4.72316C3.10396 4.55862 5.40647 1.11188 7.87459 3.13407C14.0008 8.17945 6.5 8 11.3894 12.6113C16.2788 17.2226 15.8214 9.99995 20.8659 16.1249C22.8882 18.594 19.4413 20.8964 19.2778 20.9888C18.2598 21.717 15.0995 22.6978 8.20049 15.799Z"
+                stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </a>
+          +79138302340
+        </div>
+      </div>
+
+
+    </div>
+  </footer>
+</body>
+
+</html>
