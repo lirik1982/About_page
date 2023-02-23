@@ -433,8 +433,18 @@ footer {
 
 /*****************************/
 
-@media (max-width: 1319.9px) {
-  .container {
-    padding: 0 100px;
+@media (max-width: 1023.9px) {
+  .max-container {
+    max-width: 1024px;
+    padding-left: 35px;
+    padding-right: 35px;
   }
+
+  body {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+
+
 }
