@@ -143,7 +143,7 @@ a:focus {
   line-height: 21px;
 }
 
-.header-nav__list-link:hover{
+.header-nav__list-link:hover {
   color: var(--color-text_gray)
 }
 
@@ -423,7 +423,7 @@ footer {
 }
 
 
-.footer-social__listitem:hover{
+.footer-social__listitem:hover {
   stroke: var(--color-primary);
 }
 
@@ -434,6 +434,7 @@ footer {
 /*****************************/
 
 @media (max-width: 1023.9px) {
+  
   .max-container {
     max-width: 1024px;
     padding-left: 35px;
@@ -445,6 +446,8 @@ footer {
     line-height: 15px;
   }
 
-
+  .element-listitem-header__name {
+    font-size: 13px;
+  }
 
 }
